@@ -11,5 +11,7 @@ main{
     color: white;
 }
 .card{
-    color: black;
+    background-color: #112030;
+    height: 370px;
+    width: 200px;
 }

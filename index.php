@@ -22,12 +22,12 @@
     </header>
     <main>
         <div id="app">
-            <div class="container">
-                <div class="row">
-                        <div v-for="(disc, index) in discs" :key="index" class="col-3">
-                            <div class="card">
+            <div class="container d-flex flex-wrap">
+                <div class="row p-5">
+                        <div v-for="(disc, index) in discs" :key="index" class="col-4 m-0">
+                            <div class="card p-3 m-2">
                                 <img :src="disc.poster" alt="Album Cover" class="card-img-top">
-                                <div class="card-body">
+                                <div class="card-body text-center">
                                     <h5 class="card-title">
                                         {{ disc.title }}
                                     </h5>
