@@ -18,9 +18,7 @@
 </head>
 <body>
     <header>
-    <h1>
-        Sono l'header
-    </h1>
+    <img src="logo-small.svg" alt="" class="col-2 offset-md-1">
     </header>
 
     <script src="./script/main.js"></script>
