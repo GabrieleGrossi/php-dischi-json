@@ -24,16 +24,21 @@
         <div id="app">
             <div class="container">
                 <div class="row">
-                <div class="col-12">
-                            <ul>
-                                <li v-for="(disc, index) in discs">
-                                    {{ disc.title }}
-                                    {{ disc.author }}
-                                    {{ disc.year }}
-                                    {{ disc.poster }}
-                                    {{ disc.genre }}
-                                </li>
-                            </ul>
+                        <div v-for="(disc, index) in discs" :key="index" class="col-3">
+                            <div class="card">
+                                <img :src="disc.poster" alt="Album Cover" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        {{ disc.title }}
+                                    </h5>
+                                    <p class="card-text">
+                                        {{ disc.author }}
+                                    </p>
+                                    <h5>
+                                        {{ disc.year }}
+                                    </h5>
+                                </div>
+                            </div>
                         </div>
                 </div>
             </div>
