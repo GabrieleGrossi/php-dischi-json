@@ -20,6 +20,11 @@
     <header>
     <img src="logo-small.svg" alt="" class="col-2 offset-md-1">
     </header>
+    <main>
+        <h1>
+            Sono il main
+        </h1>
+    </main>
 
     <script src="./script/main.js"></script>
 </body>

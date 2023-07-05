@@ -6,3 +6,7 @@ header img{
     height: 30px;
     margin: 1rem;
 }
+main{
+    background-color: #1d2d3c;
+    height: calc(100vh - 30px - 2rem);
+}
