@@ -21,9 +21,23 @@
     <img src="logo-small.svg" alt="" class="col-2 offset-md-1">
     </header>
     <main>
-        <h1>
-            Sono il main
-        </h1>
+        <div id="app">
+            <div class="container">
+                <div class="row">
+                <div class="col-12">
+                            <ul>
+                                <li v-for="(disc, index) in discs">
+                                    {{ disc.title }}
+                                    {{ disc.author }}
+                                    {{ disc.year }}
+                                    {{ disc.poster }}
+                                    {{ disc.genre }}
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <script src="./script/main.js"></script>
